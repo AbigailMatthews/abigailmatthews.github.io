@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color:yellow;
+	background-color:white;
 }
 
 a {
@@ -13,9 +13,8 @@ a {
 
 .links {
 	position:fixed;
-	margin-left:30%;
+	left:35%;
 	margin-top:15%;
-
 
 }
 
