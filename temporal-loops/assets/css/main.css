@@ -1,0 +1,156 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	
+}
+
+.links {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 675px;
+  left: 680px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+
+.Background {
+  height:auto;
+  width:100%;
+  position:absolute;
+  top:0%;
+  left:0%;
+}
+
+.title {
+  height:auto;
+  width:80%;
+  position:absolute;
+  object-position:center;
+  top:190px;
+  left:10%;
+}
+
+.boarder {
+  height:auto;
+  width:auto;
+  position:absolute;
+  object-position:center;
+  top:85%;
+  left:0%;
+}
+
+
+.circle-1 {
+  height:auto;
+  width:auto;
+  position:absolute;
+  top:90px;
+  left:170px;
+}
+
+.circle-2 {
+  height:auto;
+  width:auto;
+  position:absolute;
+  top:410px;
+  left:770px;
+}
+
+.toggle-title {
+  font-size:30px;
+  cursor: pointer;
+  color:blue;
+  position:fixed;
+  z-index:10px;
+}
+
+.title-1 {
+  left:600px;
+  top:400px;
+}
+
+.title-2 {
+  left:300px;
+  top:500px;
+}
+
+.title-3 {
+  left:200px;
+  top:200px;
+}
+
+.toggle-content {
+  display: none;
+
+  font-size:12px;
+  box-shadow:5px;
+  position:fixed;
+  width:250px;
+}
+
+.toggle-1 {
+  left:600px;
+  top:430px;
+}
+
+.toggle-2 {
+  left:300px;
+  top:530px;
+}
+
+.toggle-3 {
+  left:200px;
+  top:230px;
+}
+
+.popup-link {
+  color:blue;
+  cursor: pointer;
+}
+
+.shape {
+  width: 250px;
+  position: fixed;
+  z-index: 3;
+  cursor: pointer;
+  display: none;
+}
+
+.s-2 {
+  top:200px;
+  left:400px;
+  width: 100px;
+  height: auto;
+}
+
+.s-6 {
+  top:50px;
+  left:150px; 
+}
+
+.s-3 {
+  top:100px;
+  left:225px; 
+}
+
+.s-4 {
+  top:100px;
+  left:350px; 
+}
+
+.s-5 {
+  top:80px;
+  left:100px; 
+}
+
+.s-7 {
+  top:-70px;
+  left:-30px; 
+}
+
+.show {
+  display: block;
+}
+
