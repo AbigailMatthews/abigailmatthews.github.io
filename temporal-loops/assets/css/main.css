@@ -83,7 +83,7 @@ body {
 
 .toggle-content {
   display: none;
-
+  background-color:red;
   font-size:12px;
   box-shadow:5px;
   position:fixed;
