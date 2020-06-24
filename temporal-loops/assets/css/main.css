@@ -68,7 +68,7 @@ body {
 
 .title-1 {
   left:600px;
-  top:400px;
+  top:390px;
 }
 
 .title-2 {
@@ -76,15 +76,11 @@ body {
   top:500px;
 }
 
-.title-3 {
-  left:200px;
-  top:200px;
-}
 
 .toggle-content {
   display: none;
   background-color:white;
-  font-size:12px;
+  font-size:13px;
   box-shadow:5px;
   position:fixed;
   width:250px;
@@ -96,14 +92,10 @@ body {
 }
 
 .toggle-2 {
-  left:300px;
-  top:530px;
+  left:280px;
+  top:2440px;
 }
 
-.toggle-3 {
-  left:200px;
-  top:230px;
-}
 
 .popup-link {
   color:blue;
