@@ -58,6 +58,14 @@ body {
   left:770px;
 }
 
+.circle-3 {
+  height:auto;
+  width:auto;
+  position:absolute;
+  top:140px;
+  left:160px;
+}
+
 .toggle-title {
   font-size:30px;
   cursor: pointer;
