@@ -1,0 +1,85 @@
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color: white;
+
+}
+
+
+.backgroundcolor{
+	height:auto;
+  	width:100%;
+  	position:absolute;
+}
+
+
+
+span {
+	
+}
+
+
+.date{
+	font-size: 15px;
+
+}
+
+.title{
+	font-size: 15px;
+
+}
+
+.mada{
+	font-size: 15px;
+}
+
+
+
+.message1{
+	color:red;
+	font-size: 60px;
+	position:absolute;
+	top:50%;
+	left:20%;
+	width:100%;
+	
+}
+
+.message2{
+	position:absolute;
+	top:400px;
+	left:350px;
+	width:100%;
+}
+
+.message3{
+	position:absolute;
+	top:500px;
+	left:600px;
+	width:100%;
+}
+
+
+.message4{
+	position:absolute;
+	top:350px;
+	left:1000px;
+	width:100%;
+}
+
+.message5{
+	position:absolute;
+	top:400px;
+	left:1000px;
+	width:100%;
+}
+
+
+.message6{
+	position:absolute;
+	top:450px;
+	left:1000px;
+	width:100%;
+
+
+}

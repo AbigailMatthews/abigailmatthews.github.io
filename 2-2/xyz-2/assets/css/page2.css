@@ -1,0 +1,92 @@
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color: white;
+
+}
+
+
+.backgroundcolor{
+	height:auto;
+  	width:100%;
+  	position:absolute;
+}
+
+
+.date{
+	transform:skew(-30deg);
+	padding-left: 10px;
+}
+
+.title{
+	width:33%;
+	font-size:60px;
+	transform:skew(20deg);
+	margin-left:auto;
+	margin-top:auto;
+}
+
+.mada{
+	transform:skew(-30deg);
+	padding-left: 10px;
+}
+
+.message1{
+	width:33%;
+	font-size:150px;
+	color:red;
+	margin-top: 30px;
+	padding: 10px;
+	padding-left: 90px;
+	animation: color change 2s infinite alternate;
+}
+
+@keyframes colorchange {
+	0% { 
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0%;
+	}
+}
+
+.message2{
+	width:33%;
+	font-size:80px;
+	transform:skew(40deg);
+	margin-left:600px;
+	margin-top:-200px;
+	animation: rotationchange 3s infinite alternate;
+}
+
+@keyframes rotationchange {
+	0% {
+		
+		transform:skew(15deg);
+	}
+	100% {
+		
+		transform:skew(90deg);
+	}
+}
+
+.message3{
+	margin-left:800px;
+	margin-top:auto;
+}
+
+.message4{
+	margin-left:1100px;
+	margin-top:-200px;
+}
+
+.message5{
+	margin-left:1100px;
+	margin-top:auto;
+	transform:skew(-30deg);
+}
+
+.message6{
+	margin-left:1100px;
+	margin-top:auto;
+}	

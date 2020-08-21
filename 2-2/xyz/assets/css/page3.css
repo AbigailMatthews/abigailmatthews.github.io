@@ -1,0 +1,84 @@
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color: lightyellow;
+
+}
+
+
+.backgroundcolor{
+	height:auto;
+  	width:100%;
+  	position:absolute;
+}
+
+
+
+span {
+	
+}
+
+
+.title{
+	width:33%;
+	font-size:80px;
+	background-color:blue;
+	margin-left:auto;
+	margin-top:auto;
+}
+
+
+.message1{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+	padding:180px;
+	background-color:red;
+}
+
+
+.message2{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	color:black;
+	padding:180px;
+	
+}
+
+.message3{
+	width:33%;
+	font-size:50px;
+	background-color:blue;
+	margin-left:auto;
+	margin-top:auto;
+}
+
+
+.message4{
+	width:33%;
+	font-size:50px;
+	background-color:blue;
+	margin-left:auto;
+	margin-top:auto;
+}
+
+.message5{
+	width:33%;
+	font-size:50px;
+	background-color:blue;
+	margin-left:auto;
+	margin-top:auto;
+}
+
+
+.message6{
+	width:33%;
+	font-size:50px;
+	background-color:blue;
+	margin-left:auto;
+	margin-top:auto;
+}

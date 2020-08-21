@@ -1,0 +1,82 @@
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color: lightyellow;
+
+}
+
+
+.backgroundcolor{
+	height:auto;
+  	width:100%;
+  	position:absolute;
+}
+
+
+
+.message1{
+	display:inline-block;
+	width:33%;
+	font-size:140px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+	background-color:red;
+}
+
+
+.message2{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+	padding:160px;
+	background-color:red;
+	
+}
+
+.message3{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:red;
+	font-weight: bold;
+	padding:160px;
+}
+
+
+.message4{
+	outline: 1px solid blue;
+	top:500px;
+}
+
+.message5{
+	display:block;
+	
+}
+
+
+.message6{
+	display:inline-block;
+	outline: 1px solid blue;
+	width:100%;
+}
+
+.date{
+
+}
+
+.title{
+	width:33%;
+	font-size:80px;
+	background-color:blue;
+	width: 100%;
+}
+}
+
+.mada{
+
+}

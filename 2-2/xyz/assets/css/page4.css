@@ -1,0 +1,82 @@
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color:white;
+
+}
+
+
+.backgroundcolor{
+	height:auto;
+  	width:100%;
+  	position:absolute;
+}
+
+
+
+span {
+	
+}
+
+
+.date{
+	
+}
+
+.title{
+	
+
+}
+
+.mada{
+	
+}
+
+
+
+.message1{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight:bold;
+	text-align: bottom;
+	text-align: right;
+	padding-top: 500px;
+	padding-right: 10px;
+	background-color:magenta;
+	width: 49%
+}
+
+.message2{
+	position: absolute;
+	top:200px;
+	left:800px;
+}
+
+.message3{
+	position: absolute;
+	top:250px;
+	left:800px;
+}
+
+
+.message4{
+	position: absolute;
+	top:300px;
+	left:800px;
+}
+
+.message5{
+	position: absolute;
+	bottom:60px;
+	right:20px;
+}
+
+
+.message6{
+	position: absolute;
+	bottom:30px;
+	right:20px;
+}

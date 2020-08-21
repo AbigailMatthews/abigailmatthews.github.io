@@ -1,0 +1,118 @@
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color: lightyellow;
+
+}
+
+
+.backgroundcolor{
+	height:auto;
+  	width:100%;
+  	position:absolute;
+}
+
+
+.circle-1{
+	display:inline-block;
+	width:33%;
+	height: 600px;
+  	width: 600px;
+  	border-radius: 50%;
+	background-color: blue;
+	padding: 40px;
+	right:0%;
+	animation: colorchange 3s infinite alternate;
+}
+
+.circle-2{
+	display:inline-block;
+	width:33%;
+	height: 600px;
+  	width: 600px;
+  	border-radius: 50%;
+	background-color: blue;
+	padding: 40px;
+	right:0%;
+	animation: colorchange 3s infinite alternate;
+	z-index:-1;
+}
+
+
+@keyframes colorchange {
+	0% {
+		color:red;
+		transform:skew(15deg);
+		
+	}
+	100% {
+		color:blue;
+		transform:skew(30deg);
+	}
+}
+
+
+.title{
+	width:33%;
+	font-size:50px;
+	background-color:blue;
+	margin-left:auto;
+	margin-top:auto;
+}
+
+
+.message1{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+	margin-top:100px;
+}
+
+.message2{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+
+}
+
+.message3{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+}
+
+.message4{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+}
+
+.message5{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+}
+
+.message6{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+}

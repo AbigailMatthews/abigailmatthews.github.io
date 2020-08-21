@@ -1,0 +1,77 @@
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color: white;
+
+}
+
+
+.backgroundcolor{
+	height:auto;
+  	width:100%;
+  	position:absolute;
+}
+
+
+.col{
+	display:inline-block;
+	width:33%;
+	font-size:60px;
+	font-family:arial;
+	color: lime;
+	vertical-align:top;
+	padding:20px;
+	text-shadow: 0px 10px 30px;
+	animation: colorchange 3s infinite alternate;
+}
+
+@keyframes colorchange {
+	0% {
+		color:red;
+		transform:skew(15deg);
+		letter-spacing:; 
+		opacity:;
+		font-size:;
+	}
+	100% {
+		color:blue;
+		transform:skew(30deg);
+	}
+}
+
+.title{
+	width:33%;
+	font-size:60px;  
+	margin-left:auto;
+	margin-top:auto;
+}
+
+
+.circle{
+	height: 50px;
+  	width: 50px;
+  	border-radius: 50%;
+	background-color: blue;
+}
+
+
+.message1{
+	display:inline-block;
+	width:33%;
+	font-size:30px;
+	font-family:arial;
+	color:white;
+	font-weight: bold;
+	padding:180px;
+	background-color:red;
+	animation: colorchange 2s infinite alternate;
+}
+
+@keyframes colorchange {
+	0% { 
+		color: red;
+	}
+	100% {
+		color: blue;
+	}
+}
