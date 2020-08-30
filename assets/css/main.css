@@ -38,6 +38,7 @@ a {
 	left:0%;
 	text-shadow:0px 0px 20px white;
 	color:magenta;
+  margin-top: 10px;
 }
 
 .tag2{
@@ -46,6 +47,7 @@ a {
 	left:25%;
 	text-shadow:0px 0px 20px white;
 	color:magenta;
+  margin-top: 10px;  
 }
 
 .tag3{
@@ -54,6 +56,7 @@ a {
 	left:50%;
 	text-shadow:0px 0px 20px white;
 	color:magenta;
+  margin-top: 10px;  
 }
 
 .tag4{
@@ -62,6 +65,7 @@ a {
 	left:75%;
 	text-shadow:0px 0px 20px white;
 	color:magenta;
+  margin-top: 10px; 
 }
 
 
@@ -83,7 +87,7 @@ a {
 }
 
 .menu:hover {
-  background-color: pink;
+  background-color: lime;
 }
 
 .close {
@@ -104,7 +108,7 @@ a {
 }
 
 .close:hover {
-  background-color:pink;
+  background-color:lime;
 }
 
 .essay {
@@ -136,6 +140,7 @@ a {
 .essay p {
   font-size: 24px;
   padding: 24px;
+  font-family: Arial Black, Gadget,sans-serif;
 }
 
 
@@ -158,7 +163,7 @@ a {
 }
 
 .menu1:hover {
-  background-color: pink;
+  background-color: lime;
 }
 
 .close1 {
@@ -179,7 +184,7 @@ a {
 }
 
 .close1:hover {
-  background-color:pink;
+  background-color:lime;
 }
 
 .essay1 {
@@ -189,15 +194,15 @@ a {
   font-family: futura;
   position: fixed;
   background-color: magenta;
-  right: 0;
+  left: 0;
   top: 0;
   z-index: 2;
-  margin-right: -50%;
+  margin-left: -50%;
   transition: 1s;
 }
 
 .essay1.slide {
-  margin-right: 0;
+  margin-left: 0;
   transition: 1s;
 }
 
@@ -211,6 +216,8 @@ a {
 .essay1 p {
   font-size: 24px;
   padding: 24px;
+  text-align: right;
+  font-family: Arial Black, Gadget,sans-serif;
 }
 
 
@@ -221,6 +228,7 @@ a {
 
 .bg {
 	text-align:center;
+
 
 }
 
@@ -234,7 +242,7 @@ a {
 }
 
 .bg.three {
-	text-shadow:0px 0px 100px lime;
+	text-shadow:0px 0px 40px lime;
 	display:none;
 }
 
@@ -271,7 +279,7 @@ a {
 }
 
 .text.one{
-	font-size:40px;
+	font-size:70px;
 }
 
 .text.two{
