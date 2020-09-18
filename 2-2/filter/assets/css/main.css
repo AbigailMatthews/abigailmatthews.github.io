@@ -1,32 +1,59 @@
 body{
 	font-family: arial;
+	color: blue;
+}
+
+.background-image {
+	width: 100%;
+	position: absolute;
+	z-index: -2;
+}
+
+
+.name{
+	display: inline-block;
 	font-size:18px;
 }
+
+.title {
+	width:33%;
+	font-size:80px;
+	transform:skew(40deg);
+	margin-left:600px;
+	margin-top:-200px;
+	animation: rotationchange 3s infinite alternate;
+}
+
+@keyframes rotationchange {
+	0% {
+		
+		transform:skew(15deg);
+	}
+	100% {
+		
+		transform:skew(90deg);
+	}
+}
+
 
 .nav{
 	display:flex;
 	justify-content:flex-start;
-	background-color:lightgray;
-	box-shadow:0px 0px 10px 10px lightgray;
+	background-color:
+	box-shadow:
 }
 
 .btn{
-	border:1px solid black;
 	padding:10px;
 	margin: 10px;
 	border-radius:10px;
 }
 
 .btn:hover{
-	background-color:black;
 	color:white;
 	cursor:pointer;
 }
 
-.title{
-	margin-left:10px;
-	margin-top:33.33vh;
-}
 
 .container{
 	display:flex;
@@ -34,16 +61,145 @@ body{
 	align-items:flex-end;
 }
 
-.item{
-	width:16.66%;
-	padding:20px;
-	text-align: center;
+.drag-image {
+  	cursor: move;
+  	box-shadow:
+  	padding: 0px;
+  	position: relative;
+}
 
+
+.image {
+	width:20%;
+	align-content: center;
+}
+
+.image-1 {
+	width:20%;
+	align-content: center;
+}
+
+.image-2 {
+	width:20%;
+	align-content: center;
+}
+
+.image-3 {
+	width:20%;
+	align-content: center;
+}
+
+.image-4 {
+	width:20%;
+	align-content: center;
+}
+
+.image-5 {
+	width:20%;
+	align-content: center;
+}
+
+.image-6 {
+	width:20%;
+	align-content: center;
+}
+
+.image-7 {
+	width:20%;
+	align-content: center;
+}
+
+.image-8 {
+	width:20%;
+	align-content: center;
+}
+
+.image-9 {
+	width:20%;
+	align-content: center;
+}
+
+.image-10 {
+	width:20%;
+	align-content: center;
+}
+
+.image-11 {
+	width:20%;
+	align-content: center;
+}
+
+.image-12 {
+	width:20%;
+	align-content: center;
+}
+
+.image-13 {
+	width:20%;
+	align-content: center;
+}
+
+.image-14 {
+	width:20%;
+	align-content: center;
+}
+
+.image-15 {
+	width:20%;
+	align-content: center;
+}
+
+.image-16 {
+	width:20%;
+	align-content: center;
+}
+
+.image-17 {
+	width:20%;
+	align-content: center;
+}
+
+.image-18 {
+	width:20%;
+	align-content: center;
+}
+
+.image-19 {
+	width:20%;
+	align-content: center;
+}
+
+.image-20 {
+	width:20%;
+	align-content: center;
+}
+
+.image-21 {
+	width:20%;
+	align-content: center;
+}
+
+.image-22 {
+	width:20%;
+	align-content: center;
+}
+
+.image-23 {
+	width:20%;
+	align-content: center;
+}
+
+.image-24 {
+	width:20%;
+	align-content: center;
+}
+
+.next {
 
 }
 
-.item img {
-	max-width:100%;
-	display:block;
-	margin:auto;
+.footer {
+
 }
+
+
