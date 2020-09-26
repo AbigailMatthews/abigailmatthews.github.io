@@ -1,6 +1,6 @@
 body{
 	font-family: arial;
-	color: blue;
+	background-color: blue;
 }
 
 .background-image {
@@ -11,30 +11,50 @@ body{
 
 
 .name{
-	display: inline-block;
-	font-size:18px;
+	display: absolute;
+	color: white;
+	font-size:14px;
+	padding: 20px;
 }
 
 .title {
-	width:33%;
-	font-size:80px;
+	font-family: arial black, gadget, sans-serif; 
+	font-size:150px;
+	width: 49%;
 	transform:skew(40deg);
-	margin-left:600px;
-	margin-top:-200px;
-	animation: rotationchange 3s infinite alternate;
+	margin-left:15%;
+	margin-top:15%;
+	animation: rotationchange 5s infinite alternate;
 }
 
 @keyframes rotationchange {
 	0% {
 		
 		transform:skew(15deg);
+		color: blue;
 	}
+
+	50% {
+		color:white;
+		transform:skew(20deg);
+	}
+
 	100% {
 		
-		transform:skew(90deg);
+		transform:skew(100deg);
+		color:blue;
 	}
 }
 
+.content {
+	font-size:12px;
+	background-color: white;
+	color: blue;
+	position: absolute;
+	right:10%;
+	top:65%;
+	padding: 20px;
+}
 
 .nav{
 	display:flex;
