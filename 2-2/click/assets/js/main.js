@@ -17,24 +17,34 @@ $(document).ready(function(){
 	$('.alert').toggleClass('active');
 	});
 
-	$('.btn-mag').click(function(){
+	$('.btn-egyptian').click(function(){
 		$('.item').addClass('hide');
-		$('.item.mag').removeClass('hide');
+		$('.item.egyptian').removeClass('hide');
 	});
 
 
-	$('.btn-red').click(function(){
+	$('.btn-klein').click(function(){
 		$('.item').addClass('hide');
-		$('.item.red').removeClass('hide');
+		$('.item.klein').removeClass('hide');
 	});
 
-	$('.btn-shape').click(function(){
+	$('.btn-navy').click(function(){
 		$('.item').addClass('hide');
-		$('.item.shape').removeClass('hide');
+		$('.item.navy').removeClass('hide');
+	});	
+
+	$('.btn-prussian').click(function(){
+		$('.item').addClass('hide');
+		$('.item.prussian').removeClass('hide');
+	});	
+
+	$('.btn-ultra').click(function(){
+		$('.item').addClass('hide');
+		$('.item.ultra').removeClass('hide');
 	});	
 
 	$('.btn-reset').click(function(){
-		$('.item').addClass('hide');
+		$('.item').removeClass('hide');
 	});	
 
 
