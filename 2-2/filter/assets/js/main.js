@@ -21,6 +21,7 @@ $( document ).ready(function() {
 		$('.btn-cerulean').addClass('hide');
 		$('.introduction').removeClass('hide');													
 		$('.title').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	}); 
 
 
@@ -32,6 +33,7 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');													
 		$('.item.egyptian').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	});
 
 	$('.btn-klein').click(function(){
@@ -42,6 +44,7 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');									
 		$('.item.klein').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	});
 
 	$('.btn-navy').click(function(){
@@ -52,6 +55,7 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');									
 		$('.item.navy').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	});	
 
 	$('.btn-prussian').click(function(){
@@ -62,6 +66,7 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');									
 		$('.item.prussian').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	});	
 
 	$('.btn-ultra').click(function(){
@@ -72,6 +77,7 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');									
 		$('.item.ultra').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	});	
 
 	$('.btn-reset').click(function(){
@@ -81,6 +87,7 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');									
 		$('.item').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	});	
 
 
@@ -91,6 +98,7 @@ $( document ).ready(function() {
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');							
 		$('.swatches').removeClass('hide');
+		$('.nav').removeClass('colorblue');			
 	});
 
 
@@ -100,7 +108,8 @@ $( document ).ready(function() {
 		$('.title').addClass('hide');
 		$('.introduction').addClass('hide');		
 		$('.btn-cerulean').removeClass('hide');					
-		$('.book').removeClass('hide');		
+		$('.book').removeClass('hide');	
+		$('.nav').addClass('colorblue');	
 	});
 
 

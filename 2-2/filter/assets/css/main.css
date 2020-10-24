@@ -16,6 +16,10 @@ body{
 	position: fixed;
 }
 
+.nav.colorblue .btn {
+	color:blue;
+}
+
 .title {
 	font-family: arial black, gadget, sans-serif; 
 	font-size:150px;
