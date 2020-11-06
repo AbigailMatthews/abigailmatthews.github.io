@@ -1,0 +1,70 @@
+body {
+	background-color: black;
+	color:white;
+	font-size: 40px;
+	line-height: 42px;
+}
+
+h1 {
+	font-size: 33vw;
+	line-height: 23vw;
+	letter-spacing: -16px;
+	text-align: right;
+	margin-top: 5vw;
+	font-family: alternate-gothic-compressed, sans-serif;
+}
+
+h2 {
+	font-size: 80px;
+	line-height: 75px;
+	font-family: alternate-gothic-compressed, sans-serif;
+	padding: 40px;
+
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 32px;
+}
+
+p {
+	font-size: 40px;
+	line-height: 42px;
+	padding: 40px;	
+	text-indent: 200px;
+}
+
+.footnote p {
+	font-size: 18px;
+	line-height: 20px;
+	width: 50%;
+	color: gray;
+	font-family: arial;
+	margin-bottom: 20px;
+	text-indent: 0px;
+}
+
+.text p {
+	text-align: justify;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 200px;
+}
+
+
+.text.w1of2 p {
+	padding-right: 25%;
+	padding-left: 25%;
+}
+
+.footnote.w1of2 p {
+	text-align: right;
+}
+
+
+
+
