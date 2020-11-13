@@ -81,6 +81,8 @@ p {
 	line-height: 42px;
 	padding: 40px;	
 	text-indent: 200px;
+	-webkit-text-stroke: 1px black;
+	text-shadow: 1px 0px black;
 }
 
 
@@ -117,16 +119,15 @@ p {
 
 .blocks {
 	display: inline-block;
-	width: 100%;
-	position: fixed;
-	top:720px;
-}
-
-.item {
+	position: sticky;
 	background-color: black;
 	color: black;
-	width: 45%;
+	width: 55%;
+	height: 10px;
+	top:200px;
+	left:0px;
 }
 
-
-
+.blocks.two {
+	right:50px;
+}
