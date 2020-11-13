@@ -127,16 +127,18 @@ p {
 }
 
 .blocks {
-	display: inline-block;
 	position: sticky;
 	background-color: black;
 	color: black;
 	width: 55%;
-	height: 10px;
+	height: 30px;
 	top:200px;
-	left:0px;
+}
+
+.blocks.one {
+	margin-left:300px;
 }
 
 .blocks.two {
-	right:50px;
+	left:0px;
 }
