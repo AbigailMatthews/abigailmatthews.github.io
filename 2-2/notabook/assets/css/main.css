@@ -7,6 +7,15 @@ body {
 	line-height: 42px;
 }
 
+::selection {
+  background: blue;
+  color: lime;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .title {
 	color: black;
 	font-size:10px;
