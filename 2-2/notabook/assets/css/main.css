@@ -7,6 +7,50 @@ body {
 	line-height: 42px;
 }
 
+.title {
+	color: black;
+	font-size:10px;
+	margin-top: 20%;
+	margin-left: 10%;
+	position: fixed;
+	display: inline-flex;
+}
+
+.col {
+	padding: 10px;
+}
+
+.articleimage1 {
+	width:60%;
+	height: auto;
+	filter: grayscale(30);
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 500px;
+}
+
+.articleimage2 {
+	width:60%;
+	height: auto;
+	filter: grayscale(30);
+	position: absolute;
+	margin-top: 830px;
+	margin-left: 500px;
+}
+
+.articleimage3 {
+	width:60%;
+	height: auto;
+	filter: grayscale(30);
+	position: absolute;
+	margin-top: 1630px;
+	margin-left: 500px;
+}
+
+
+
+
+
 h1 {
 	font-size: 25px;
 	line-height: 5vw;
