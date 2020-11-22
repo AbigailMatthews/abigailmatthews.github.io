@@ -1,7 +1,8 @@
 body {
-	font-family: Helvetica,Arial,sans-serif;
+	font-family: Arial Black, Gadget,sans-serif;
 	font-size: 60px;
 	text-align: center;
+	background-color: lightyellow;
 }
 
 a {
@@ -11,4 +12,35 @@ a {
 
 span {
 	color:red;
+}
+
+
+.col {
+	font-size:20px;
+	margin-top: 30px;
+	color: blue;
+}
+
+.one.col {
+	font-size:50px;
+	color: black;
+}
+
+.message.one {
+	margin-top: 80px;
+}
+
+.mada {
+	animation: colorchange 3s infinite alternate;
+}
+
+
+@keyframes colorchange {
+	0% {
+		text-shadow: 2px 2px 0px red;
+		
+	}
+	100% {
+		text-shadow: 2px 2px 20px red;
+	}
 }

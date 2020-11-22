@@ -1,22 +1,39 @@
-$(document).ready(function() {
-  var classes = ["one", "two", "three", "four"];
+$( document ).ready(function() {
+    
+ $( function() {
+    $( ".drag-image").draggable();
 
-  $(".roll").each(function() {
-    $(this).addClass(classes[~~(Math.random() * classes.length)]);
-  });
+  } );
 
-  setInterval(function() {
-    rollClasses();
-  }, 750);
+ $( function() {
+    $('.new-message3').addClass('hide');
+    $('.new-message4').addClass('hide');    
+    $('.new-message5').addClass('hide');    
+    $('.new-message6').addClass('hide');    
+  } );  
 
-  function rollClasses() {
-    $(".roll").each(function() {
-      $(this).removeClass("one two three four");
-    });
 
-    $(".roll").each(function() {
-      $(this).addClass(classes[~~(Math.random() * classes.length)]);
-    });
-  }
+  $('.btn-time').click(function(){
+    $('.btn-time').addClass('hide');                        
+    $('.new-message3').removeClass('hide');     
+  }); 
+
+  $('.btn-energy').click(function(){
+    $('.btn-energy').addClass('hide');                        
+    $('.new-message4').removeClass('hide');     
+  }); 
+
+  $('.btn-speed').click(function(){
+    $('.btn-speed').addClass('hide');                        
+    $('.new-message5').removeClass('hide');     
+  }); 
+
+  $('.btn-carbon').click(function(){
+    $('.btn-carbon').addClass('hide');                        
+    $('.new-message6').removeClass('hide');     
+  }); 
+
 
 });
+
+

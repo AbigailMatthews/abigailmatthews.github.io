@@ -7,6 +7,17 @@ body {
 	line-height: 42px;
 }
 
+a {
+	color: black;
+}
+
+
+.nav {
+	font-size:0.8vw;
+	display: inline-flex;
+}
+
+
 ::selection {
   background: blue;
   color: lime;
@@ -124,21 +135,25 @@ p {
 
 .footnote.w1of2 p {
 	text-align: right;
+	width: 60%;
 }
+
+
 
 .blocks {
 	position: sticky;
 	background-color: black;
 	color: black;
-	width: 55%;
+	width: 58%;
 	height: 30px;
 	top:200px;
 }
 
 .blocks.one {
-	margin-left:330px;
+	margin-left:600px;
+	top:200px;	
 }
 
 .blocks.two {
-	left:0px;
+	top:400px;
 }

@@ -1,19 +1,46 @@
-.mada {
-	font-size:300px;
-	font-family:arial;
-	animation: colorchange 3s infinite alternate;
+body {
+	font-family: Arial Black, Gadget,sans-serif;
+	font-size: 20px;
+	background-color: lightyellow;
+	color: white;
 }
+
+.one.col {
+	font-size:80px;
+	color: blue;
+}
+
+.mada {
+	font-size:100px;
+	font-weight: bold;
+	animation: colorchange 10s infinite alternate;
+	text-align: center;
+}
+
 
 @keyframes colorchange {
 	0% {
 		color:red;
-		transform:skew(15deg);
+		transform:skew(-90deg);
 		letter-spacing:; 
 		opacity:;
 		font-size:;
 	}
+
+	50% {
+		transform:skew(30deg);
+	}
+
 	100% {
-		color:blue;
+		color:black;
 		transform:skew(90deg);
 	}
+}
+
+.message.one {
+	margin-top:50px;
+}
+
+.message {
+	font-size:100px;
 }
