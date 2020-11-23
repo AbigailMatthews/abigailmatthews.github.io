@@ -1,8 +1,8 @@
 body{
 	font-family: Arial Black, Gadget,sans-serif;
 	font-size: 20px;
-	background-color: black;
-	color:lime;
+	background-color: gray;
+	color:black;
 
 }
 
@@ -16,7 +16,8 @@ body{
 }
 
 * {
-	outline: 1px solid gray;
+	outline: 2px solid gray;
+  border-radius: 25px;
 }
 
 a:link {
@@ -33,68 +34,133 @@ a:hover {
 
 h1 {
   font-size:300px;
+  font-style: oblique;
+  color:lime;
 }
 
 h2{
   font-size:100px;
+  margin-top: 300px;
 }
 
-p {
-  font-size: 17px;
-  color: white;
-  width: 75%;
-  font-family: Arial, serif;
+.hide {
+  display: none;
 }
+
+
+.btn {
+  color:black;
+}
+
+
+.btn:hover{
+  color:blue;
+  cursor:pointer;
+}
+
 
 html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-size:15px;
+  color: black;
+  font-family: Arial, serif;  
+  width: 70%;
+  padding: 15px;  
+  outline: 2px solid gray;
+  border-radius: 50%;
+}
 
 .subtitle {
   font-size:18px;
-}
-
-.link {
-  font-size: 12px;
+  margin-left: 80%;
 }
 
 
-.main {
-	padding: 10px;
-}
+
 
 #section1 {
   height: 800px;
-  background-color: ;
 }
 
-#section2 {
-  height: 800px;
-  background-color: ;
+
+
+.layer.one {
+  padding-left: 200px;
+  padding-top: 300px;  
 }
 
-#section3 {
-  height: 800px;
-  background-color: ;
+.user-text {
+  font-family: Arial, serif;  
+  font-size: 17px;
+  color: black;
+  width: 70%;
 }
 
-#section4 {
-  height: 800px;
-  background-color: ;
+.layer.two {
+  padding-left: 500px;
+  margin-top: 30px;
+
 }
 
-#section5 {
-  height: 800px;
-  background-color: ;
+.interface-text {
+  font-family: Arial, serif;  
+  font-size: 17px;
+  color: white;
+  width: 70%;
 }
 
-#section6 {
-  height: 800px;
-  background-color: ;
+.layer.three {
+  padding-left: 300px;
+  margin-top: 35px;
 }
 
-#section7 {
-  height: 800px;
-  background-color: ;
+.address-text {
+  font-family: Arial, serif;  
+  font-size: 17px;
+  color: white;
+  width: 70%;
 }
+
+.layer.four {
+  padding: 400px;
+  margin-top: -350px;
+  text-align: right;
+}
+
+.city-text {
+  font-family: Arial, serif;  
+  font-size: 17px;
+  color: white;
+  width: 100%;
+  text-align: right;
+}
+
+.layer.five {
+  padding: 300px;
+}
+
+.cloud-text {
+  font-family: Arial, serif;  
+  font-size: 17px;
+  color: white;
+  width: 70%;
+}
+
+.layer.six {
+  padding: 300px;
+}
+
+.earth-text {
+  font-family: Arial, serif;  
+  font-size: 17px;
+  color: white;
+  width: 70%;
+}
+
+.links{
+  margin-left: 300px;
+}
+
