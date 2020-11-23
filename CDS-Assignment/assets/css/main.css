@@ -2,12 +2,22 @@ body{
 	font-family: Arial Black, Gadget,sans-serif;
 	font-size: 20px;
 	background-color: white;
+	cursor:url(images-folder/cursor-image.png), auto;
 
 }
 
-.btn {
-
+a:link {
+	color:black;
 }
+
+a:visited {
+	color:black;
+}
+
+a:hover {
+	color: black;
+}
+
 
 .btn:hover {
 	cursor: pointer;

@@ -31,11 +31,34 @@ a:hover {
 	color: black;
 }
 
+h1 {
+  font-size:300px;
+}
 
+h2{
+  font-size:100px;
+}
+
+p {
+  font-size: 17px;
+  color: white;
+  width: 75%;
+  font-family: Arial, serif;
+}
 
 html {
   scroll-behavior: smooth;
 }
+
+
+.subtitle {
+  font-size:18px;
+}
+
+.link {
+  font-size: 12px;
+}
+
 
 .main {
 	padding: 10px;
@@ -67,6 +90,11 @@ html {
 }
 
 #section6 {
+  height: 800px;
+  background-color: ;
+}
+
+#section7 {
   height: 800px;
   background-color: ;
 }
